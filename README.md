@@ -8,6 +8,6 @@ The install.sh is a shell script containing the main Python modules that are nee
 
 The json file intents.json can be filled with patterns and responses in order to be used for chat
 
-Run the training.py in order to train the model. A DNN with 1 fully connected hidden layers is implemented from scratch.
+Run the training.py in order to train the model. A DNN with 1 fully connected hidden layers is implemented from scratch. It creates csv files with weights and biases and a pickle file with words, labels and output parameters; these are used in main.py for responses.
 
 The main.py contains the main algorithm.
